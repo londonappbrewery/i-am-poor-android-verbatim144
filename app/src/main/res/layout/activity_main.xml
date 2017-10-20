@@ -7,6 +7,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+                android:background="#FFFF7300"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="I Am Poor"
+        android:textSize="40dp"
+        android:textColor="black"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coal"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"/>
 
 </RelativeLayout>
